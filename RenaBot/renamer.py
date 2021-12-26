@@ -298,7 +298,7 @@ async def auto(event):
         chat=a
     if AutoBatch==True:
         start=reply.id
-        end=start+Amount_Fetcher
+        end=Amount_Fetcher+start
         if end>event.id:
             end=event.id
     elif AutoBatch==False:
